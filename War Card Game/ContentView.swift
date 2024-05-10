@@ -67,6 +67,7 @@ struct ContentView: View {
 			}
 	 }
 
+	 // Declaration of the card distribution logic
 func deal() {
 			// Randomize the players card
 	 let playerCardValue = Int.random(in: 2...14)
